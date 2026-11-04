@@ -1,0 +1,1 @@
+{ "extends": "../../../tsconfig.json", "compilerOptions": { "noEmit": true, "incremental": false }, "files": ["../../next-ambient.d.ts", "lib.ts", "1-fetch.ts", "2-build-dataset.ts", "3-run-ai.ts", "4-evaluate.ts", "5-export.ts"], "include": [] }
