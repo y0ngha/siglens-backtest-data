@@ -1,0 +1,3330 @@
+{
+  "arm": "before",
+  "weeks": [
+    "2019-W23",
+    "2019-W24",
+    "2019-W25",
+    "2019-W26",
+    "2019-W27",
+    "2019-W28",
+    "2019-W29",
+    "2019-W30",
+    "2019-W31",
+    "2019-W32",
+    "2019-W33",
+    "2019-W34",
+    "2019-W35",
+    "2019-W36",
+    "2019-W37",
+    "2019-W38",
+    "2019-W39",
+    "2019-W40",
+    "2019-W41",
+    "2019-W42",
+    "2019-W43",
+    "2019-W44",
+    "2019-W45",
+    "2019-W46",
+    "2019-W47",
+    "2019-W48",
+    "2019-W49",
+    "2019-W50",
+    "2019-W51",
+    "2019-W52",
+    "2020-W01",
+    "2020-W02",
+    "2020-W03",
+    "2020-W04",
+    "2020-W05",
+    "2020-W06",
+    "2020-W07",
+    "2020-W08",
+    "2020-W09",
+    "2020-W10",
+    "2020-W11",
+    "2020-W12",
+    "2020-W13",
+    "2020-W14",
+    "2020-W15",
+    "2020-W16",
+    "2020-W17",
+    "2020-W18",
+    "2020-W19",
+    "2020-W20",
+    "2020-W21",
+    "2020-W22",
+    "2020-W23",
+    "2020-W24",
+    "2020-W25",
+    "2020-W26",
+    "2020-W27",
+    "2020-W28",
+    "2020-W29",
+    "2020-W30",
+    "2020-W31",
+    "2020-W32",
+    "2020-W33",
+    "2020-W34",
+    "2020-W35",
+    "2020-W36",
+    "2020-W37",
+    "2020-W38",
+    "2020-W39",
+    "2020-W40",
+    "2020-W41",
+    "2020-W42",
+    "2020-W43",
+    "2020-W44",
+    "2020-W45",
+    "2020-W46",
+    "2020-W47",
+    "2020-W48",
+    "2020-W49",
+    "2020-W50",
+    "2020-W51",
+    "2020-W52",
+    "2020-W53",
+    "2021-W01",
+    "2021-W02",
+    "2021-W03",
+    "2021-W04",
+    "2021-W05",
+    "2021-W06",
+    "2021-W07",
+    "2021-W08",
+    "2021-W09",
+    "2021-W10",
+    "2021-W11",
+    "2021-W12",
+    "2021-W13",
+    "2021-W14",
+    "2021-W15",
+    "2021-W16",
+    "2021-W17",
+    "2021-W18",
+    "2021-W19",
+    "2021-W20",
+    "2021-W21",
+    "2021-W22",
+    "2021-W23",
+    "2021-W24",
+    "2021-W25",
+    "2021-W26",
+    "2021-W27",
+    "2021-W28",
+    "2021-W29",
+    "2021-W30",
+    "2021-W31",
+    "2021-W32",
+    "2021-W33",
+    "2021-W34",
+    "2021-W35",
+    "2021-W36",
+    "2021-W37",
+    "2021-W38",
+    "2021-W39",
+    "2021-W40",
+    "2021-W41",
+    "2021-W42",
+    "2021-W43",
+    "2021-W44",
+    "2021-W45",
+    "2021-W46",
+    "2021-W47",
+    "2021-W48",
+    "2021-W49",
+    "2021-W50",
+    "2021-W51",
+    "2021-W52",
+    "2022-W01",
+    "2022-W02",
+    "2022-W03",
+    "2022-W04",
+    "2022-W05",
+    "2022-W06",
+    "2022-W07",
+    "2022-W08",
+    "2022-W09",
+    "2022-W10",
+    "2022-W11",
+    "2022-W12",
+    "2022-W13",
+    "2022-W14",
+    "2022-W15",
+    "2022-W16",
+    "2022-W17",
+    "2022-W18",
+    "2022-W19",
+    "2022-W20",
+    "2022-W21",
+    "2022-W22",
+    "2022-W23",
+    "2022-W24",
+    "2022-W25",
+    "2022-W26",
+    "2022-W27",
+    "2022-W28",
+    "2022-W29",
+    "2022-W30",
+    "2022-W31",
+    "2022-W32",
+    "2022-W33",
+    "2022-W34",
+    "2022-W35",
+    "2022-W36",
+    "2022-W37",
+    "2022-W38",
+    "2022-W39",
+    "2022-W40",
+    "2022-W41",
+    "2022-W42",
+    "2022-W43",
+    "2022-W44",
+    "2022-W45",
+    "2022-W46",
+    "2022-W47",
+    "2022-W48",
+    "2022-W49",
+    "2022-W50",
+    "2022-W51",
+    "2022-W52",
+    "2023-W01",
+    "2023-W02",
+    "2023-W03",
+    "2023-W04",
+    "2023-W05",
+    "2023-W06",
+    "2023-W07",
+    "2023-W08",
+    "2023-W09",
+    "2023-W10",
+    "2023-W11",
+    "2023-W12",
+    "2023-W13",
+    "2023-W14",
+    "2023-W15",
+    "2023-W16",
+    "2023-W17",
+    "2023-W18",
+    "2023-W19",
+    "2023-W20",
+    "2023-W21",
+    "2023-W22",
+    "2023-W23",
+    "2023-W24",
+    "2023-W25",
+    "2023-W26",
+    "2023-W27",
+    "2023-W28",
+    "2023-W29",
+    "2023-W30",
+    "2023-W31",
+    "2023-W32",
+    "2023-W33",
+    "2023-W34",
+    "2023-W35",
+    "2023-W36",
+    "2023-W37",
+    "2023-W38",
+    "2023-W39",
+    "2023-W40",
+    "2023-W41",
+    "2023-W42",
+    "2023-W43",
+    "2023-W44",
+    "2023-W45",
+    "2023-W46",
+    "2023-W47",
+    "2023-W48",
+    "2023-W49",
+    "2023-W50",
+    "2023-W51",
+    "2023-W52",
+    "2024-W01",
+    "2024-W02",
+    "2024-W03",
+    "2024-W04",
+    "2024-W05",
+    "2024-W06",
+    "2024-W07",
+    "2024-W08",
+    "2024-W09",
+    "2024-W10",
+    "2024-W11",
+    "2024-W12",
+    "2024-W13",
+    "2024-W14",
+    "2024-W15",
+    "2024-W16",
+    "2024-W17",
+    "2024-W18",
+    "2024-W19",
+    "2024-W20",
+    "2024-W21",
+    "2024-W22",
+    "2024-W23",
+    "2024-W24",
+    "2024-W25",
+    "2024-W26",
+    "2024-W27",
+    "2024-W28",
+    "2024-W29",
+    "2024-W30",
+    "2024-W31",
+    "2024-W32",
+    "2024-W33",
+    "2024-W34",
+    "2024-W35",
+    "2024-W36",
+    "2024-W37",
+    "2024-W38",
+    "2024-W39",
+    "2024-W40",
+    "2024-W41",
+    "2024-W42",
+    "2024-W43",
+    "2024-W44",
+    "2024-W45",
+    "2024-W46",
+    "2024-W47",
+    "2024-W48",
+    "2024-W49",
+    "2024-W50",
+    "2024-W51",
+    "2024-W52",
+    "2025-W01",
+    "2025-W02",
+    "2025-W03",
+    "2025-W04",
+    "2025-W05",
+    "2025-W06",
+    "2025-W07",
+    "2025-W08",
+    "2025-W09",
+    "2025-W10",
+    "2025-W11",
+    "2025-W12",
+    "2025-W13",
+    "2025-W14",
+    "2025-W15",
+    "2025-W16",
+    "2025-W17",
+    "2025-W18",
+    "2025-W19",
+    "2025-W20",
+    "2025-W21",
+    "2025-W22",
+    "2025-W23",
+    "2025-W24",
+    "2025-W25",
+    "2025-W26",
+    "2025-W27",
+    "2025-W28",
+    "2025-W29",
+    "2025-W30",
+    "2025-W31",
+    "2025-W32",
+    "2025-W33",
+    "2025-W34",
+    "2025-W35",
+    "2025-W36",
+    "2025-W37",
+    "2025-W38",
+    "2025-W39",
+    "2025-W40",
+    "2025-W41",
+    "2025-W42",
+    "2025-W43",
+    "2025-W44",
+    "2025-W45",
+    "2025-W46",
+    "2025-W47",
+    "2025-W48",
+    "2025-W49",
+    "2025-W50",
+    "2025-W51",
+    "2025-W52",
+    "2026-W01",
+    "2026-W02",
+    "2026-W03",
+    "2026-W04",
+    "2026-W05",
+    "2026-W06",
+    "2026-W07",
+    "2026-W08",
+    "2026-W09",
+    "2026-W10",
+    "2026-W11",
+    "2026-W12",
+    "2026-W13",
+    "2026-W14",
+    "2026-W15",
+    "2026-W16",
+    "2026-W17",
+    "2026-W18",
+    "2026-W19",
+    "2026-W20",
+    "2026-W21",
+    "2026-W22",
+    "2026-W23",
+    "2026-W24",
+    "2026-W25",
+    "2026-W26",
+    "2026-W27",
+    "2026-W28",
+    "2026-W29",
+    "2026-W30",
+    "2026-W31",
+    "2026-W32",
+    "2026-W33",
+    "2026-W34",
+    "2026-W35",
+    "2026-W36",
+    "2026-W37",
+    "2026-W38",
+    "2026-W39",
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45"
+  ],
+  "candles": {
+    "events": 33352,
+    "tested": 28220,
+    "neutral": 5132,
+    "dropped": 0,
+    "byPattern": {
+      "bullish_harami": 1824,
+      "bullish_belt_hold": 2313,
+      "doji": 3742,
+      "bearish_belt_hold": 2060,
+      "bearish_engulfing": 2306,
+      "bullish_marubozu": 813,
+      "inverted_hammer": 825,
+      "upside_gap_tasuki": 322,
+      "tweezers_top": 1962,
+      "piercing_line": 343,
+      "shooting_star": 794,
+      "tweezers_bottom": 1794,
+      "dark_cloud_cover": 456,
+      "in_neck": 621,
+      "bearish_harami": 1704,
+      "bullish_harami_cross": 456,
+      "dragonfly_doji": 246,
+      "three_outside_down": 912,
+      "ladder_bottom": 37,
+      "hammer": 909,
+      "hanging_man": 990,
+      "evening_star": 248,
+      "upside_gap_two_crows": 143,
+      "bullish_engulfing": 1995,
+      "gravestone_doji": 193,
+      "below_the_stomach": 521,
+      "on_neck": 189,
+      "morning_star": 243,
+      "evening_doji_star": 70,
+      "bearish_harami_cross": 454,
+      "three_inside_up": 419,
+      "three_inside_down": 396,
+      "above_the_stomach": 540,
+      "bearish_marubozu": 601,
+      "morning_doji_star": 71,
+      "three_outside_up": 863,
+      "bullish_counterattack_line": 39,
+      "three_black_crows": 76,
+      "advance_block": 264,
+      "downside_gap_two_rabbits": 141,
+      "bullish_three_line_strike": 47,
+      "downside_gap_tasuki": 258,
+      "bearish_counterattack_line": 34,
+      "falling_three_methods": 8,
+      "three_white_soldiers": 62,
+      "bearish_three_line_strike": 35,
+      "bearish_abandoned_baby": 2,
+      "rising_three_methods": 8,
+      "bearish_triple_star": 1,
+      "bullish_abandoned_baby": 2
+    },
+    "violations": {
+      "context": 18967,
+      "setupBody": 5428,
+      "dojiSetup": 1729,
+      "tweezersClose": 1605
+    },
+    "violationsByPattern": {
+      "above_the_stomach": {
+        "context": 374,
+        "setupBody": 3
+      },
+      "advance_block": {
+        "context": 164
+      },
+      "bearish_abandoned_baby": {
+        "context": 1
+      },
+      "bearish_belt_hold": {
+        "context": 1423
+      },
+      "bearish_counterattack_line": {
+        "context": 23
+      },
+      "bearish_engulfing": {
+        "context": 1418,
+        "setupBody": 1439,
+        "dojiSetup": 502
+      },
+      "bearish_harami": {
+        "context": 1017
+      },
+      "bearish_harami_cross": {
+        "context": 269,
+        "setupBody": 1
+      },
+      "bearish_three_line_strike": {
+        "context": 25
+      },
+      "bearish_triple_star": {
+        "context": 1
+      },
+      "below_the_stomach": {
+        "context": 351,
+        "setupBody": 3
+      },
+      "bullish_abandoned_baby": {
+        "context": 1
+      },
+      "bullish_belt_hold": {
+        "context": 1823
+      },
+      "bullish_counterattack_line": {
+        "context": 21,
+        "setupBody": 1
+      },
+      "bullish_engulfing": {
+        "context": 1440,
+        "setupBody": 1256,
+        "dojiSetup": 400
+      },
+      "bullish_harami": {
+        "context": 1274,
+        "setupBody": 2
+      },
+      "bullish_harami_cross": {
+        "context": 318,
+        "setupBody": 2
+      },
+      "bullish_three_line_strike": {
+        "context": 29
+      },
+      "dark_cloud_cover": {
+        "context": 278,
+        "setupBody": 1
+      },
+      "downside_gap_tasuki": {
+        "context": 198
+      },
+      "downside_gap_two_rabbits": {
+        "context": 106
+      },
+      "dragonfly_doji": {
+        "context": 194
+      },
+      "evening_doji_star": {
+        "context": 44,
+        "setupBody": 2
+      },
+      "evening_star": {
+        "context": 157
+      },
+      "falling_three_methods": {
+        "context": 8
+      },
+      "gravestone_doji": {
+        "context": 104
+      },
+      "hammer": {
+        "context": 628
+      },
+      "hanging_man": {
+        "context": 602
+      },
+      "in_neck": {
+        "context": 412,
+        "setupBody": 2
+      },
+      "inverted_hammer": {
+        "context": 599
+      },
+      "ladder_bottom": {
+        "context": 30
+      },
+      "morning_doji_star": {
+        "context": 48
+      },
+      "morning_star": {
+        "context": 177,
+        "setupBody": 2
+      },
+      "on_neck": {
+        "context": 146
+      },
+      "piercing_line": {
+        "context": 218,
+        "setupBody": 1
+      },
+      "rising_three_methods": {
+        "context": 4
+      },
+      "shooting_star": {
+        "context": 490
+      },
+      "three_black_crows": {
+        "context": 49
+      },
+      "three_inside_down": {
+        "context": 221,
+        "setupBody": 1
+      },
+      "three_inside_up": {
+        "context": 282,
+        "setupBody": 1
+      },
+      "three_outside_down": {
+        "context": 553,
+        "setupBody": 575,
+        "dojiSetup": 230
+      },
+      "three_outside_up": {
+        "context": 631,
+        "setupBody": 534,
+        "dojiSetup": 178
+      },
+      "three_white_soldiers": {
+        "context": 42
+      },
+      "tweezers_bottom": {
+        "context": 1348,
+        "setupBody": 762,
+        "dojiSetup": 204,
+        "tweezersClose": 713
+      },
+      "tweezers_top": {
+        "context": 1140,
+        "setupBody": 840,
+        "dojiSetup": 215,
+        "tweezersClose": 892
+      },
+      "upside_gap_tasuki": {
+        "context": 197
+      },
+      "upside_gap_two_crows": {
+        "context": 89
+      }
+    },
+    "pools": {
+      "bullish": {
+        "n": 13978,
+        "primary": {
+          "n": 13978,
+          "mean": -0.02121306067037174,
+          "low": -0.12226089736267749,
+          "high": 0.08378854352951468,
+          "p": 0.7086456771614192,
+          "droppedReplicates": 0
+        },
+        "primaryPHolm": 1,
+        "horizons": {
+          "h1": {
+            "n": 13978,
+            "mean": -0.007357059025661985,
+            "low": -0.03948347650717818,
+            "high": 0.024657817727578978,
+            "p": 0.6686656671664168,
+            "droppedReplicates": 0
+          },
+          "h5": {
+            "n": 13978,
+            "mean": -0.02121306067037174,
+            "low": -0.12226089736267749,
+            "high": 0.08378854352951468,
+            "p": 0.7086456771614192,
+            "droppedReplicates": 0
+          },
+          "h10": {
+            "n": 13978,
+            "mean": -0.027041059881588395,
+            "low": -0.1840494003285462,
+            "high": 0.13317471186954713,
+            "p": 0.7436281859070465,
+            "droppedReplicates": 0
+          }
+        },
+        "percent": {
+          "h1": {
+            "n": 13978,
+            "mean": -0.0368048659821293,
+            "low": -0.1685543374614717,
+            "high": 0.09098876736213825,
+            "p": 0.5837081459270365,
+            "droppedReplicates": 0
+          },
+          "h5": {
+            "n": 13978,
+            "mean": -0.14885869551436198,
+            "low": -0.5509130788192613,
+            "high": 0.2530990282940042,
+            "p": 0.4777611194402799,
+            "droppedReplicates": 0
+          },
+          "h10": {
+            "n": 13978,
+            "mean": -0.18103359202861777,
+            "low": -0.7731709800945467,
+            "high": 0.4008996260808799,
+            "p": 0.5557221389305347,
+            "droppedReplicates": 0
+          }
+        },
+        "unmatchedPrimary": {
+          "n": 13978,
+          "mean": -0.03127345188161003,
+          "low": -0.13352013200649765,
+          "high": 0.07089939357778367,
+          "p": 0.5707146426786607,
+          "droppedReplicates": 0
+        },
+        "hitShareEdge": {
+          "n": 13978,
+          "mean": -0.005215338388896836,
+          "low": -0.03252662528313075,
+          "high": 0.021519814591479985,
+          "p": 0.7316341829085458,
+          "droppedReplicates": 0
+        },
+        "eventHitShare": 0.5355558735155244,
+        "placeboHitShare": 0.5407712119044207,
+        "byMarket": {
+          "us": {
+            "n": 13978,
+            "mean": -0.02121306067037174,
+            "low": -0.12226089736267749,
+            "high": 0.08378854352951468,
+            "p": 0.7086456771614192,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 3142,
+            "mean": 0.10896525371389268,
+            "low": -0.09989309320785401,
+            "high": 0.325129761950731,
+            "p": 0.31584207896051975,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 10836,
+            "mean": -0.05895948590065587,
+            "low": -0.17042773885648177,
+            "high": 0.05747355283903356,
+            "p": 0.3288355822088955,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      "bearish": {
+        "n": 14242,
+        "primary": {
+          "n": 14242,
+          "mean": -0.0010656640568188953,
+          "low": -0.11129078240047714,
+          "high": 0.1035602076592573,
+          "p": 0.9545227386306847,
+          "droppedReplicates": 0
+        },
+        "primaryPHolm": 1,
+        "horizons": {
+          "h1": {
+            "n": 14242,
+            "mean": 0.016166271776315376,
+            "low": -0.018689777556506467,
+            "high": 0.04774659543563997,
+            "p": 0.37881059470264866,
+            "droppedReplicates": 0
+          },
+          "h5": {
+            "n": 14242,
+            "mean": -0.0010656640568188953,
+            "low": -0.11129078240047714,
+            "high": 0.1035602076592573,
+            "p": 0.9545227386306847,
+            "droppedReplicates": 0
+          },
+          "h10": {
+            "n": 14242,
+            "mean": -0.007236863892722886,
+            "low": -0.16543564525456506,
+            "high": 0.15941174256685706,
+            "p": 0.9245377311344328,
+            "droppedReplicates": 0
+          }
+        },
+        "percent": {
+          "h1": {
+            "n": 14242,
+            "mean": 0.04117527290459249,
+            "low": -0.10712674442248415,
+            "high": 0.17741689214929524,
+            "p": 0.5947026486756621,
+            "droppedReplicates": 0
+          },
+          "h5": {
+            "n": 14242,
+            "mean": -0.024260546731881126,
+            "low": -0.4687011561427455,
+            "high": 0.4093841779591831,
+            "p": 0.8995502248875562,
+            "droppedReplicates": 0
+          },
+          "h10": {
+            "n": 14242,
+            "mean": -0.0601814054616386,
+            "low": -0.710972927736657,
+            "high": 0.6265196156531767,
+            "p": 0.8505747126436781,
+            "droppedReplicates": 0
+          }
+        },
+        "unmatchedPrimary": {
+          "n": 14242,
+          "mean": 0.006469667794782291,
+          "low": -0.10131662675823058,
+          "high": 0.11005146927776543,
+          "p": 0.9305347326336831,
+          "droppedReplicates": 0
+        },
+        "hitShareEdge": {
+          "n": 14242,
+          "mean": 0.0012638674343491108,
+          "low": -0.028522162272645663,
+          "high": 0.03004200186031945,
+          "p": 0.9555222388805598,
+          "droppedReplicates": 0
+        },
+        "eventHitShare": 0.45962645695829235,
+        "placeboHitShare": 0.4583625895239433,
+        "byMarket": {
+          "us": {
+            "n": 14242,
+            "mean": -0.0010656640568188953,
+            "low": -0.11129078240047714,
+            "high": 0.1035602076592573,
+            "p": 0.9545227386306847,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 3123,
+            "mean": -0.14095402916517452,
+            "low": -0.3425953052896064,
+            "high": 0.05630559383810034,
+            "p": 0.1619190404797601,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 11119,
+            "mean": 0.03822486245036651,
+            "low": -0.08596883974109207,
+            "high": 0.1609995719045859,
+            "p": 0.5687156421789106,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      "pooled": {
+        "n": 28220,
+        "primary": {
+          "n": 28220,
+          "mean": -0.011045122237692105,
+          "low": -0.04386176333612803,
+          "high": 0.022973529990645225,
+          "p": 0.5347326336831584,
+          "droppedReplicates": 0
+        },
+        "primaryPHolm": 1,
+        "horizons": {
+          "h1": {
+            "n": 28220,
+            "mean": 0.004514637547043952,
+            "low": -0.013652272133649229,
+            "high": 0.023118355574749287,
+            "p": 0.6676661669165417,
+            "droppedReplicates": 0
+          },
+          "h5": {
+            "n": 28220,
+            "mean": -0.011045122237692105,
+            "low": -0.04386176333612803,
+            "high": 0.022973529990645225,
+            "p": 0.5347326336831584,
+            "droppedReplicates": 0
+          },
+          "h10": {
+            "n": 28220,
+            "mean": -0.01704632709372794,
+            "low": -0.06286157621341622,
+            "high": 0.0315227636337473,
+            "p": 0.47976011994003,
+            "droppedReplicates": 0
+          }
+        },
+        "percent": {
+          "h1": {
+            "n": 28220,
+            "mean": 0.0025499581860029402,
+            "low": -0.08092919822106913,
+            "high": 0.08209898726930298,
+            "p": 0.9585207396301849,
+            "droppedReplicates": 0
+          },
+          "h5": {
+            "n": 28220,
+            "mean": -0.08597680908771102,
+            "low": -0.22289074564046904,
+            "high": 0.058722620331984256,
+            "p": 0.2288855572213893,
+            "droppedReplicates": 0
+          },
+          "h10": {
+            "n": 28220,
+            "mean": -0.12004220857408497,
+            "low": -0.30586346176478624,
+            "high": 0.06714384198906934,
+            "p": 0.22188905547226387,
+            "droppedReplicates": 0
+          }
+        },
+        "unmatchedPrimary": {
+          "n": 28220,
+          "mean": -0.012225347330540579,
+          "low": -0.04410892436491933,
+          "high": 0.020885499651074557,
+          "p": 0.48875562218890556,
+          "droppedReplicates": 0
+        },
+        "hitShareEdge": {
+          "n": 28220,
+          "mean": -0.0019454287739192075,
+          "low": -0.012112042457574189,
+          "high": 0.007558981176475017,
+          "p": 0.7406296851574213,
+          "droppedReplicates": 0
+        },
+        "eventHitShare": 0.4972360028348689,
+        "placeboHitShare": 0.4991814316087908,
+        "byMarket": {
+          "us": {
+            "n": 28220,
+            "mean": -0.011045122237692105,
+            "low": -0.04386176333612803,
+            "high": 0.022973529990645225,
+            "p": 0.5347326336831584,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 6265,
+            "mean": -0.015615419938354238,
+            "low": -0.07503778179041094,
+            "high": 0.04176033965854601,
+            "p": 0.6046976511744128,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 21955,
+            "mean": -0.009740958489359226,
+            "low": -0.04735990997685931,
+            "high": 0.028893824057500943,
+            "p": 0.6086956521739131,
+            "droppedReplicates": 0
+          }
+        }
+      }
+    },
+    "families": [
+      {
+        "family": "above_the_stomach",
+        "n": 540,
+        "primary": {
+          "n": 540,
+          "mean": -0.0024314682432418234,
+          "low": -0.24046551979337075,
+          "high": 0.23379940735816795,
+          "p": 0.9625187406296851,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 540,
+            "mean": -0.0024314682432418234,
+            "low": -0.24046551979337075,
+            "high": 0.23379940735816795,
+            "p": 0.9625187406296851,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 155,
+            "mean": 0.13849765644246465,
+            "low": -0.10742565944025868,
+            "high": 0.4363793807103296,
+            "p": 0.2888555722138931,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 385,
+            "mean": -0.05916916779203277,
+            "low": -0.3713601983809325,
+            "high": 0.25523688394695215,
+            "p": 0.7606196901549226,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "advance_block",
+        "n": 264,
+        "primary": {
+          "n": 264,
+          "mean": 0.2608285368601592,
+          "low": -0.04496694668705637,
+          "high": 0.5464390293619575,
+          "p": 0.09095452273863068,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 264,
+            "mean": 0.2608285368601592,
+            "low": -0.04496694668705637,
+            "high": 0.5464390293619575,
+            "p": 0.09095452273863068,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 51,
+            "mean": -0.41315095602941343,
+            "low": -1.0594334600536264,
+            "high": 0.2133341902582827,
+            "p": 0.17891054472763618,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 213,
+            "mean": 0.42220390839709915,
+            "low": 0.0870850858236775,
+            "high": 0.7422735674865365,
+            "p": 0.01899050474762619,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bearish_abandoned_baby",
+        "n": 2,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "bearish_belt_hold",
+        "n": 2060,
+        "primary": {
+          "n": 2060,
+          "mean": 0.011159042971035938,
+          "low": -0.13278044681788365,
+          "high": 0.15455513197695203,
+          "p": 0.9085457271364318,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 2060,
+            "mean": 0.011159042971035938,
+            "low": -0.13278044681788365,
+            "high": 0.15455513197695203,
+            "p": 0.9085457271364318,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 373,
+            "mean": -0.02729492386070879,
+            "low": -0.33289565310506825,
+            "high": 0.2901001990771333,
+            "p": 0.8255872063968016,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 1687,
+            "mean": 0.019661313052980692,
+            "low": -0.1471436778443988,
+            "high": 0.17936241251422522,
+            "p": 0.8255872063968016,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bearish_counterattack_line",
+        "n": 34,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "bearish_engulfing",
+        "n": 2306,
+        "primary": {
+          "n": 2306,
+          "mean": -0.05054985522204925,
+          "low": -0.21156805647498733,
+          "high": 0.10136785070401269,
+          "p": 0.527736131934033,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 2306,
+            "mean": -0.05054985522204925,
+            "low": -0.21156805647498733,
+            "high": 0.10136785070401269,
+            "p": 0.527736131934033,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 621,
+            "mean": -0.048116725913501454,
+            "low": -0.31275401131174596,
+            "high": 0.2155970395542829,
+            "p": 0.6966516741629185,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 1685,
+            "mean": -0.051446575281757397,
+            "low": -0.23472299095782795,
+            "high": 0.1284155809960193,
+            "p": 0.5937031484257871,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bearish_harami",
+        "n": 1704,
+        "primary": {
+          "n": 1704,
+          "mean": 0.08762808763175751,
+          "low": -0.0690224430244271,
+          "high": 0.23853886081371822,
+          "p": 0.2798600699650175,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 1704,
+            "mean": 0.08762808763175751,
+            "low": -0.0690224430244271,
+            "high": 0.23853886081371822,
+            "p": 0.2798600699650175,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 325,
+            "mean": -0.47296230518108673,
+            "low": -0.7978385247668898,
+            "high": -0.14755055625596886,
+            "p": 0.0029985007496251873,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 1379,
+            "mean": 0.2197469256768441,
+            "low": 0.04929989647429663,
+            "high": 0.3913752156309749,
+            "p": 0.014992503748125937,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bearish_harami_cross",
+        "n": 454,
+        "primary": {
+          "n": 454,
+          "mean": 0.03888329938680329,
+          "low": -0.1855992293539821,
+          "high": 0.26016575164566175,
+          "p": 0.704647676161919,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 454,
+            "mean": 0.03888329938680329,
+            "low": -0.1855992293539821,
+            "high": 0.26016575164566175,
+            "p": 0.704647676161919,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 74,
+            "mean": -0.3609280591986324,
+            "low": -0.802615809983292,
+            "high": 0.12777137909958003,
+            "p": 0.12593703148425786,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 380,
+            "mean": 0.11674130079554616,
+            "low": -0.12883621569382242,
+            "high": 0.3469661714381772,
+            "p": 0.33183408295852074,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bearish_marubozu",
+        "n": 601,
+        "primary": {
+          "n": 601,
+          "mean": 0.039851502868273846,
+          "low": -0.19914583947762318,
+          "high": 0.24481808438718236,
+          "p": 0.735632183908046,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 601,
+            "mean": 0.039851502868273846,
+            "low": -0.19914583947762318,
+            "high": 0.24481808438718236,
+            "p": 0.735632183908046,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 128,
+            "mean": -0.029257229294851646,
+            "low": -0.36255927866889437,
+            "high": 0.2694082992093283,
+            "p": 0.8455772113943029,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 473,
+            "mean": 0.058553231656603776,
+            "low": -0.22973280219282458,
+            "high": 0.313283813990645,
+            "p": 0.6816591704147926,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bearish_three_line_strike",
+        "n": 35,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "bearish_triple_star",
+        "n": 1,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "below_the_stomach",
+        "n": 521,
+        "primary": {
+          "n": 521,
+          "mean": 0.07593061410502171,
+          "low": -0.19783504750950107,
+          "high": 0.3454973454495807,
+          "p": 0.5997001499250375,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 521,
+            "mean": 0.07593061410502171,
+            "low": -0.19783504750950107,
+            "high": 0.3454973454495807,
+            "p": 0.5997001499250375,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 78,
+            "mean": -0.1630101278822618,
+            "low": -0.6984617594364573,
+            "high": 0.4839299658812941,
+            "p": 0.592703648175912,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 443,
+            "mean": 0.1180014445226472,
+            "low": -0.1710195496244234,
+            "high": 0.42863953118829523,
+            "p": 0.45077461269365315,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bullish_abandoned_baby",
+        "n": 2,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "bullish_belt_hold",
+        "n": 2313,
+        "primary": {
+          "n": 2313,
+          "mean": 0.021195587459542014,
+          "low": -0.11097948514823684,
+          "high": 0.1523381839532218,
+          "p": 0.7386306846576711,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 2313,
+            "mean": 0.021195587459542014,
+            "low": -0.11097948514823684,
+            "high": 0.1523381839532218,
+            "p": 0.7386306846576711,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 468,
+            "mean": 0.31424218093573325,
+            "low": 0.039753797424149744,
+            "high": 0.5890803187008506,
+            "p": 0.0239880059970015,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 1845,
+            "mean": -0.053138182592955205,
+            "low": -0.19784865230449714,
+            "high": 0.09290704337557887,
+            "p": 0.4897551224387806,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bullish_counterattack_line",
+        "n": 39,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "bullish_engulfing",
+        "n": 1995,
+        "primary": {
+          "n": 1995,
+          "mean": 0.013685538391506972,
+          "low": -0.1258533580818272,
+          "high": 0.15823458232757306,
+          "p": 0.8325837081459271,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 1995,
+            "mean": 0.013685538391506972,
+            "low": -0.1258533580818272,
+            "high": 0.15823458232757306,
+            "p": 0.8325837081459271,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 366,
+            "mean": 0.09159329173187039,
+            "low": -0.20427167841297414,
+            "high": 0.3878743008678991,
+            "p": 0.5397301349325337,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 1629,
+            "mean": -0.0038185977181142976,
+            "low": -0.16106580588543434,
+            "high": 0.16020426918793848,
+            "p": 0.9715142428785607,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bullish_harami",
+        "n": 1824,
+        "primary": {
+          "n": 1824,
+          "mean": 0.007109506686917112,
+          "low": -0.16157717250017878,
+          "high": 0.15457377518369989,
+          "p": 0.9325337331334332,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 1824,
+            "mean": 0.007109506686917112,
+            "low": -0.16157717250017878,
+            "high": 0.15457377518369989,
+            "p": 0.9325337331334332,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 431,
+            "mean": 0.014866115347226342,
+            "low": -0.27686772015555927,
+            "high": 0.2999757693819269,
+            "p": 0.8875562218890555,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 1393,
+            "mean": 0.004709579671415827,
+            "low": -0.1877970226400015,
+            "high": 0.1644678512560313,
+            "p": 0.975512243878061,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bullish_harami_cross",
+        "n": 456,
+        "primary": {
+          "n": 456,
+          "mean": -0.09215884053431696,
+          "low": -0.2775457097548119,
+          "high": 0.10050847203860033,
+          "p": 0.3748125937031484,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 456,
+            "mean": -0.09215884053431696,
+            "low": -0.2775457097548119,
+            "high": 0.10050847203860033,
+            "p": 0.3748125937031484,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 105,
+            "mean": -0.06484270117398058,
+            "low": -0.46432689870920585,
+            "high": 0.358990372551436,
+            "p": 0.7766116941529235,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 351,
+            "mean": -0.10033033521475943,
+            "low": -0.3233500990861269,
+            "high": 0.1109420467997944,
+            "p": 0.3798100949525237,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bullish_marubozu",
+        "n": 813,
+        "primary": {
+          "n": 813,
+          "mean": -0.020260125551212708,
+          "low": -0.2052102752663047,
+          "high": 0.1625976483484872,
+          "p": 0.8575712143928036,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 813,
+            "mean": -0.020260125551212708,
+            "low": -0.2052102752663047,
+            "high": 0.1625976483484872,
+            "p": 0.8575712143928036,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 189,
+            "mean": 0.4519688575237035,
+            "low": 0.06445640346363986,
+            "high": 0.8427469413397916,
+            "p": 0.02498750624687656,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 624,
+            "mean": -0.16329101946332675,
+            "low": -0.3694965293949873,
+            "high": 0.03382196517903357,
+            "p": 0.12093953023488256,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "bullish_three_line_strike",
+        "n": 47,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "dark_cloud_cover",
+        "n": 456,
+        "primary": {
+          "n": 456,
+          "mean": 0.10345182557715282,
+          "low": -0.14345497000123905,
+          "high": 0.34090162887782227,
+          "p": 0.4127936031984008,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 456,
+            "mean": 0.10345182557715282,
+            "low": -0.14345497000123905,
+            "high": 0.34090162887782227,
+            "p": 0.4127936031984008,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 115,
+            "mean": 0.10606310123322815,
+            "low": -0.33072371605226936,
+            "high": 0.518934910835399,
+            "p": 0.6366816591704147,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 341,
+            "mean": 0.10257119009196615,
+            "low": -0.1889184427941394,
+            "high": 0.3727333430688531,
+            "p": 0.4817591204397801,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "downside_gap_two_rabbits",
+        "n": 141,
+        "primary": {
+          "n": 141,
+          "mean": -0.29917675559552614,
+          "low": -0.813298640270576,
+          "high": 0.21306650470667565,
+          "p": 0.28785607196401797,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 141,
+            "mean": -0.29917675559552614,
+            "low": -0.813298640270576,
+            "high": 0.21306650470667565,
+            "p": 0.28785607196401797,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 38,
+            "mean": -0.24694776723586784,
+            "low": -1.3166810586158282,
+            "high": 0.8713600296008844,
+            "p": 0.7596201899050474,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 103,
+            "mean": -0.3184457027573418,
+            "low": -0.9001331645697044,
+            "high": 0.23803118247964483,
+            "p": 0.3248375812093953,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "dragonfly_doji",
+        "n": 246,
+        "primary": {
+          "n": 246,
+          "mean": -0.005262976521568405,
+          "low": -0.29685449237394673,
+          "high": 0.3038475149216871,
+          "p": 0.9385307346326837,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 246,
+            "mean": -0.005262976521568405,
+            "low": -0.29685449237394673,
+            "high": 0.3038475149216871,
+            "p": 0.9385307346326837,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 64,
+            "mean": -0.18966745698601864,
+            "low": -0.7879569351622813,
+            "high": 0.4204578115795494,
+            "p": 0.5567216391804098,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 182,
+            "mean": 0.05958255507032625,
+            "low": -0.2837161823544725,
+            "high": 0.3973928258485012,
+            "p": 0.768615692153923,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "evening_doji_star",
+        "n": 70,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "evening_star",
+        "n": 248,
+        "primary": {
+          "n": 248,
+          "mean": -0.05444488570398698,
+          "low": -0.3623970975420557,
+          "high": 0.2284708274854795,
+          "p": 0.7116441779110445,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 248,
+            "mean": -0.05444488570398698,
+            "low": -0.3623970975420557,
+            "high": 0.2284708274854795,
+            "p": 0.7116441779110445,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 62,
+            "mean": -0.300832575195412,
+            "low": -0.9077988911371905,
+            "high": 0.28897892842778033,
+            "p": 0.2928535732133933,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 186,
+            "mean": 0.027684344126487924,
+            "low": -0.3449103639736902,
+            "high": 0.3600547697496137,
+            "p": 0.8885557221389305,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "falling_three_methods",
+        "n": 8,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "gravestone_doji",
+        "n": 193,
+        "primary": {
+          "n": 193,
+          "mean": -0.5784092957673498,
+          "low": -0.9362529074831623,
+          "high": -0.23400331362727167,
+          "p": 0.001999000499750125,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 0.06196901549225387,
+        "byMarket": {
+          "us": {
+            "n": 193,
+            "mean": -0.5784092957673498,
+            "low": -0.9362529074831623,
+            "high": -0.23400331362727167,
+            "p": 0.001999000499750125,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 40,
+            "mean": -0.7952273965796406,
+            "low": -2.015628744468854,
+            "high": 0.2951633086756283,
+            "p": 0.17691154422788605,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 153,
+            "mean": -0.5217248249667511,
+            "low": -0.8522795261842098,
+            "high": -0.2167887225342625,
+            "p": 0.0029985007496251873,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "hammer",
+        "n": 909,
+        "primary": {
+          "n": 909,
+          "mean": 0.023239006617363375,
+          "low": -0.16854674673972916,
+          "high": 0.21686001335969884,
+          "p": 0.783608195902049,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 909,
+            "mean": 0.023239006617363375,
+            "low": -0.16854674673972916,
+            "high": 0.21686001335969884,
+            "p": 0.783608195902049,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 234,
+            "mean": -0.018943350196074762,
+            "low": -0.3657281459316343,
+            "high": 0.3492624867127709,
+            "p": 0.9545227386306847,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 675,
+            "mean": 0.03786222364602201,
+            "low": -0.19120399224062745,
+            "high": 0.2683654218495105,
+            "p": 0.7266366816591704,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "hanging_man",
+        "n": 990,
+        "primary": {
+          "n": 990,
+          "mean": -0.025577295246837013,
+          "low": -0.17318240159028442,
+          "high": 0.12857182927654065,
+          "p": 0.7266366816591704,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 990,
+            "mean": -0.025577295246837013,
+            "low": -0.17318240159028442,
+            "high": 0.12857182927654065,
+            "p": 0.7266366816591704,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 227,
+            "mean": -0.1353713049596803,
+            "low": -0.4388212593815571,
+            "high": 0.15651972574795733,
+            "p": 0.36281859070464767,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 763,
+            "mean": 0.007087501876119042,
+            "low": -0.16881525049136564,
+            "high": 0.1853852646450933,
+            "p": 0.9675162418790605,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "inverted_hammer",
+        "n": 825,
+        "primary": {
+          "n": 825,
+          "mean": 0.03327808879622067,
+          "low": -0.14006873125326433,
+          "high": 0.20780060071961293,
+          "p": 0.670664667666167,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 825,
+            "mean": 0.03327808879622067,
+            "low": -0.14006873125326433,
+            "high": 0.20780060071961293,
+            "p": 0.670664667666167,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 187,
+            "mean": 0.206075753850337,
+            "low": -0.2004327951724702,
+            "high": 0.6694896343893412,
+            "p": 0.33183408295852074,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 638,
+            "mean": -0.01736950268515824,
+            "low": -0.20984517153251367,
+            "high": 0.16369543982420565,
+            "p": 0.8705647176411794,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "ladder_bottom",
+        "n": 37,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "morning_doji_star",
+        "n": 71,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "morning_star",
+        "n": 243,
+        "primary": {
+          "n": 243,
+          "mean": -0.15629852705306152,
+          "low": -0.5101767351977448,
+          "high": 0.2049446090729425,
+          "p": 0.431784107946027,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 243,
+            "mean": -0.15629852705306152,
+            "low": -0.5101767351977448,
+            "high": 0.2049446090729425,
+            "p": 0.431784107946027,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 53,
+            "mean": 0.5941386041638816,
+            "low": -0.18067596901505084,
+            "high": 1.4529071874258281,
+            "p": 0.12693653173413294,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 190,
+            "mean": -0.365630989971472,
+            "low": -0.7816136218763257,
+            "high": 0.042336927072531,
+            "p": 0.08195902048975512,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "piercing_line",
+        "n": 343,
+        "primary": {
+          "n": 343,
+          "mean": -0.13333613977244846,
+          "low": -0.3605932147952479,
+          "high": 0.09284122657859796,
+          "p": 0.23388305847076463,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 343,
+            "mean": -0.13333613977244846,
+            "low": -0.3605932147952479,
+            "high": 0.09284122657859796,
+            "p": 0.23388305847076463,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 81,
+            "mean": 0.08703542545639001,
+            "low": -0.36227812402995513,
+            "high": 0.5311754702417547,
+            "p": 0.688655672163918,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 262,
+            "mean": -0.2014662801676237,
+            "low": -0.44633388092125537,
+            "high": 0.05121423950357577,
+            "p": 0.12993503248375812,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "rising_three_methods",
+        "n": 8,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "shooting_star",
+        "n": 794,
+        "primary": {
+          "n": 794,
+          "mean": -0.11786320848652264,
+          "low": -0.3050940496382647,
+          "high": 0.05832904780882825,
+          "p": 0.19590204897551225,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 794,
+            "mean": -0.11786320848652264,
+            "low": -0.3050940496382647,
+            "high": 0.05832904780882825,
+            "p": 0.19590204897551225,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 148,
+            "mean": -0.29825569793104667,
+            "low": -0.6733795804426869,
+            "high": 0.09581672593281,
+            "p": 0.14792603698150925,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 646,
+            "mean": -0.07653489821130662,
+            "low": -0.2822003004665083,
+            "high": 0.11434527333224036,
+            "p": 0.4407796101949025,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "three_black_crows",
+        "n": 76,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "three_inside_down",
+        "n": 396,
+        "primary": {
+          "n": 396,
+          "mean": -0.01980798473919292,
+          "low": -0.3029021120966846,
+          "high": 0.2580501618317985,
+          "p": 0.8305847076461769,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 396,
+            "mean": -0.01980798473919292,
+            "low": -0.3029021120966846,
+            "high": 0.2580501618317985,
+            "p": 0.8305847076461769,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 67,
+            "mean": -0.17466398376047193,
+            "low": -0.47662781466011755,
+            "high": 0.19687977085412325,
+            "p": 0.335832083958021,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 329,
+            "mean": 0.011728039377602464,
+            "low": -0.3212150832042851,
+            "high": 0.3365291663098257,
+            "p": 0.9835082458770614,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "three_inside_up",
+        "n": 419,
+        "primary": {
+          "n": 419,
+          "mean": -0.10820542371462893,
+          "low": -0.3882181353100701,
+          "high": 0.17338785445553584,
+          "p": 0.48375812093953025,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 419,
+            "mean": -0.10820542371462893,
+            "low": -0.3882181353100701,
+            "high": 0.17338785445553584,
+            "p": 0.48375812093953025,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 110,
+            "mean": -0.17217498275557344,
+            "low": -0.864884846926246,
+            "high": 0.4942967538203951,
+            "p": 0.6676661669165417,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 309,
+            "mean": -0.08543308878095933,
+            "low": -0.36629749672158596,
+            "high": 0.20304245667624712,
+            "p": 0.6046976511744128,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "three_outside_down",
+        "n": 912,
+        "primary": {
+          "n": 912,
+          "mean": -0.12126027199867122,
+          "low": -0.32640937770630657,
+          "high": 0.0779695075280631,
+          "p": 0.23488255872063968,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 912,
+            "mean": -0.12126027199867122,
+            "low": -0.32640937770630657,
+            "high": 0.0779695075280631,
+            "p": 0.23488255872063968,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 247,
+            "mean": -0.1205541464480777,
+            "low": -0.46765084905121396,
+            "high": 0.23733560917272847,
+            "p": 0.5197401299350325,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 665,
+            "mean": -0.12152254720317739,
+            "low": -0.3661867830374271,
+            "high": 0.1181719959283008,
+            "p": 0.3118440779610195,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "three_outside_up",
+        "n": 863,
+        "primary": {
+          "n": 863,
+          "mean": -0.10090143218109356,
+          "low": -0.28002572543396165,
+          "high": 0.08752686966264196,
+          "p": 0.28585707146426786,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 863,
+            "mean": -0.10090143218109356,
+            "low": -0.28002572543396165,
+            "high": 0.08752686966264196,
+            "p": 0.28585707146426786,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 154,
+            "mean": 0.12343296685511157,
+            "low": -0.24060706479892754,
+            "high": 0.47613541520525615,
+            "p": 0.4847576211894053,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 709,
+            "mean": -0.14962850898162328,
+            "low": -0.34844754330476463,
+            "high": 0.06498927726598601,
+            "p": 0.16591704147926037,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "three_white_soldiers",
+        "n": 62,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "tweezers_bottom",
+        "n": 1794,
+        "primary": {
+          "n": 1794,
+          "mean": -0.059157810805453896,
+          "low": -0.19787525590476013,
+          "high": 0.07927638200881702,
+          "p": 0.4027986006996502,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 1794,
+            "mean": -0.059157810805453896,
+            "low": -0.19787525590476013,
+            "high": 0.07927638200881702,
+            "p": 0.4027986006996502,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 453,
+            "mean": 0.01532099604464232,
+            "low": -0.24462479174420967,
+            "high": 0.28636740959275664,
+            "p": 0.8825587206396801,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 1341,
+            "mean": -0.08431731826488237,
+            "low": -0.24570378834219184,
+            "high": 0.0711129199958869,
+            "p": 0.31584207896051975,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "tweezers_top",
+        "n": 1962,
+        "primary": {
+          "n": 1962,
+          "mean": 0.0031662564031786867,
+          "low": -0.14291493275449746,
+          "high": 0.1555876752549037,
+          "p": 0.9635182408795602,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 1962,
+            "mean": 0.0031662564031786867,
+            "low": -0.14291493275449746,
+            "high": 0.1555876752549037,
+            "p": 0.9635182408795602,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 489,
+            "mean": -0.06860412725485635,
+            "low": -0.30128968422522956,
+            "high": 0.16339799293601728,
+            "p": 0.559720139930035,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 1473,
+            "mean": 0.026992269715316583,
+            "low": -0.151202755216727,
+            "high": 0.20358897397530812,
+            "p": 0.735632183908046,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "upside_gap_two_crows",
+        "n": 143,
+        "primary": {
+          "n": 143,
+          "mean": 0.14650850497526938,
+          "low": -0.2107048418145828,
+          "high": 0.48302255631771485,
+          "p": 0.4877561219390305,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": null,
+        "primaryPHolm": 1,
+        "byMarket": {
+          "us": {
+            "n": 143,
+            "mean": 0.14650850497526938,
+            "low": -0.2107048418145828,
+            "high": 0.48302255631771485,
+            "p": 0.4877561219390305,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 30,
+            "mean": 0.11871980828062365,
+            "low": -0.4618459739094657,
+            "high": 0.7085053105685877,
+            "p": 0.688655672163918,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 113,
+            "mean": 0.15388603507119306,
+            "low": -0.2795726171240727,
+            "high": 0.5551070362789042,
+            "p": 0.5467266366816592,
+            "droppedReplicates": 0
+          }
+        }
+      }
+    ],
+    "robustness": {
+      "priorMove": {
+        "a05": {
+          "threshold": 0.5,
+          "contextViolations": 16614,
+          "pooled": {
+            "n": 28220,
+            "mean": -0.013239190020896883,
+            "low": -0.04575757240408104,
+            "high": 0.02011431696591739,
+            "p": 0.4387806096951524,
+            "droppedReplicates": 0
+          }
+        },
+        "a15": {
+          "threshold": 1.5,
+          "contextViolations": 21079,
+          "pooled": {
+            "n": 28220,
+            "mean": -0.006818308826274933,
+            "low": -0.03923991444918077,
+            "high": 0.026325072084331286,
+            "p": 0.6966516741629185,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      "bodyFloor": {
+        "f01": {
+          "floor": 0.1,
+          "setupBodyViolations": 2514
+        },
+        "f05": {
+          "floor": 0.5,
+          "setupBodyViolations": 9549
+        }
+      }
+    }
+  },
+  "patterns": {
+    "events": 1375,
+    "directed": {
+      "n": 1375,
+      "target": {
+        "n": 1375,
+        "mean": 0.001361229520081197,
+        "low": -0.025074208552827992,
+        "high": 0.029022473151155484,
+        "p": 0.9315342328835582,
+        "droppedReplicates": 0
+      },
+      "targetBlock": {
+        "n": 1375,
+        "mean": 0.0013612295200811954,
+        "low": -0.028427561176842534,
+        "high": 0.0339634650644295,
+        "p": 0.9535232383808095,
+        "droppedReplicates": 0
+      },
+      "targetWider": {
+        "low": -0.028427561176842534,
+        "high": 0.0339634650644295
+      },
+      "cons": {
+        "n": 1375,
+        "mean": 0.010212923493306264,
+        "low": -0.018439688192341406,
+        "high": 0.039393317349439724,
+        "p": 0.4947526236881559,
+        "droppedReplicates": 0
+      },
+      "eventTargetShare": 0.22545454545454546,
+      "placeboTargetShare": 0.22409331593446521,
+      "zTarget": 0.11047624369762928,
+      "zCons": 0.7826039943549348,
+      "byMarket": {
+        "us": {
+          "n": 1375,
+          "mean": 0.001361229520081197,
+          "low": -0.025074208552827992,
+          "high": 0.029022473151155484,
+          "p": 0.9315342328835582,
+          "droppedReplicates": 0
+        },
+        "kr": {
+          "n": 0,
+          "mean": null,
+          "low": null,
+          "high": null,
+          "p": null,
+          "droppedReplicates": 2000
+        }
+      },
+      "byHalf": {
+        "early": {
+          "n": 149,
+          "mean": 0.087248322147651,
+          "low": 0.02575494071146242,
+          "high": 0.15166066495659034,
+          "p": 0.0079960019990005,
+          "droppedReplicates": 0
+        },
+        "late": {
+          "n": 1226,
+          "mean": -0.009076924477886106,
+          "low": -0.037379905843693335,
+          "high": 0.020035091739658534,
+          "p": 0.544727636181909,
+          "droppedReplicates": 0
+        }
+      }
+    },
+    "families": [
+      {
+        "family": "ascending_channel",
+        "n": 83,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "ascending_triangle",
+        "n": 35,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "ascending_wedge",
+        "n": 32,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "bear_flag",
+        "n": 27,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "broadening_formation",
+        "n": 76,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "bull_flag",
+        "n": 32,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "cup_and_handle",
+        "n": 37,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "descending_channel",
+        "n": 101,
+        "primary": {
+          "n": 101,
+          "mean": -0.06282154531242597,
+          "low": -0.15012658023735811,
+          "high": 0.02770919421487573,
+          "p": 0.1679160419790105,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": {
+          "n": 101,
+          "mean": -0.06282154531242598,
+          "low": -0.14995268367031947,
+          "high": 0.05596953278919217,
+          "p": 0.23788105947026486,
+          "droppedReplicates": 0
+        },
+        "primaryPHolm": 0.5037481259370316,
+        "byMarket": {
+          "us": {
+            "n": 101,
+            "mean": -0.06282154531242597,
+            "low": -0.15012658023735811,
+            "high": 0.02770919421487573,
+            "p": 0.1679160419790105,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 7,
+            "mean": 0.049999999999999996,
+            "low": -0.322,
+            "high": 0.45,
+            "p": 0.8912386706948641,
+            "droppedReplicates": 15
+          },
+          "late": {
+            "n": 94,
+            "mean": -0.07122314975058534,
+            "low": -0.16140699301406006,
+            "high": 0.02500629899216122,
+            "p": 0.1359320339830085,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "descending_triangle",
+        "n": 33,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "descending_wedge",
+        "n": 20,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "double_bottom",
+        "n": 266,
+        "primary": {
+          "n": 266,
+          "mean": -0.03571428571428572,
+          "low": -0.09753540553386088,
+          "high": 0.03607269661718519,
+          "p": 0.3238380809595202,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": {
+          "n": 266,
+          "mean": -0.03571428571428571,
+          "low": -0.10928196867565426,
+          "high": 0.04851739601813514,
+          "p": 0.39780109945027486,
+          "droppedReplicates": 0
+        },
+        "primaryPHolm": 0.6476761619190404,
+        "byMarket": {
+          "us": {
+            "n": 266,
+            "mean": -0.03571428571428572,
+            "low": -0.09753540553386088,
+            "high": 0.03607269661718519,
+            "p": 0.3238380809595202,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 27,
+            "mean": 0.020370370370370372,
+            "low": -0.15338157894736842,
+            "high": 0.21743729096989942,
+            "p": 0.8035982008995503,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 239,
+            "mean": -0.04205020920502093,
+            "low": -0.10959961391280582,
+            "high": 0.03417970304912029,
+            "p": 0.2688655672163918,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "double_top",
+        "n": 261,
+        "primary": {
+          "n": 261,
+          "mean": 0.0001915708812260636,
+          "low": -0.06502930752453655,
+          "high": 0.06524399815688359,
+          "p": 0.9815092453773113,
+          "droppedReplicates": 0
+        },
+        "primaryBlock": {
+          "n": 261,
+          "mean": 0.00019157088122605977,
+          "low": -0.08028795403881457,
+          "high": 0.09059364435429343,
+          "p": 0.9825087456271864,
+          "droppedReplicates": 0
+        },
+        "primaryPHolm": 0.9815092453773113,
+        "byMarket": {
+          "us": {
+            "n": 261,
+            "mean": 0.0001915708812260636,
+            "low": -0.06502930752453655,
+            "high": 0.06524399815688359,
+            "p": 0.9815092453773113,
+            "droppedReplicates": 0
+          },
+          "kr": {
+            "n": 0,
+            "mean": null,
+            "low": null,
+            "high": null,
+            "p": null,
+            "droppedReplicates": 2000
+          }
+        },
+        "byHalf": {
+          "early": {
+            "n": 29,
+            "mean": -0.0103448275862069,
+            "low": -0.1456567028985507,
+            "high": 0.1666776315789473,
+            "p": 0.8565717141429285,
+            "droppedReplicates": 0
+          },
+          "late": {
+            "n": 232,
+            "mean": 0.0015086206896551728,
+            "low": -0.06979792985232068,
+            "high": 0.07246313955269602,
+            "p": 0.9975012493753124,
+            "droppedReplicates": 0
+          }
+        }
+      },
+      {
+        "family": "head_and_shoulders",
+        "n": 53,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "high_tight_flag",
+        "n": 37,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "inverse_head_and_shoulders",
+        "n": 32,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "pennant",
+        "n": 41,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "rectangle",
+        "n": 5,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "rounding_bottom",
+        "n": 59,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "rounding_top",
+        "n": 70,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "symmetrical_triangle",
+        "n": 27,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "triple_bottom",
+        "n": 22,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      },
+      {
+        "family": "triple_top",
+        "n": 26,
+        "primary": null,
+        "primaryBlock": null,
+        "primaryPHolm": null,
+        "byMarket": null,
+        "byHalf": null
+      }
+    ],
+    "label": {
+      "events": 1375,
+      "byOutcome": {
+        "invalidation_first": 165,
+        "invalidated_before_breakout": 692,
+        "open_at_horizon": 272,
+        "no_breakout": 85,
+        "target_first": 152,
+        "skipped": 9
+      },
+      "skipReasons": {
+        "target_reached_on_breakout": 7,
+        "geometry_invalid": 2
+      },
+      "raced": 589,
+      "targetFirstShare": 0.25806451612903225,
+      "meanRwNullTargetFirst": 0.4784228540512039
+    },
+    "counters": {
+      "days": 50883,
+      "pivotRepaintChecks": 1307316,
+      "pivotRepaints": 0,
+      "candidateDays": 10125,
+      "candidateDays:symmetrical_triangle": 263,
+      "directedDays": 8629,
+      "directedDays:symmetrical_triangle": 113,
+      "instances": 1683,
+      "instances:symmetrical_triangle": 68,
+      "statusPairs": 3534,
+      "statusPairs:symmetrical_triangle": 186,
+      "statusFlips": 350,
+      "statusFlips:symmetrical_triangle": 27,
+      "postBreakDays": 1170,
+      "postBreakDays:symmetrical_triangle": 100,
+      "movingPostBreakDays": 1170,
+      "movingPostBreakDays:symmetrical_triangle": 100,
+      "candidateDays:double_top": 1468,
+      "directedDays:double_top": 1468,
+      "instances:double_top": 275,
+      "candidateDays:double_bottom": 1527,
+      "directedDays:double_bottom": 1527,
+      "instances:double_bottom": 277,
+      "candidateDays:rounding_top": 572,
+      "directedDays:rounding_top": 572,
+      "instances:rounding_top": 70,
+      "candidateDays:descending_channel": 828,
+      "directedDays:descending_channel": 532,
+      "instances:descending_channel": 156,
+      "statusPairs:descending_channel": 658,
+      "candidateDays:rounding_bottom": 382,
+      "directedDays:rounding_bottom": 382,
+      "instances:rounding_bottom": 61,
+      "candidateDays:ascending_wedge": 150,
+      "directedDays:ascending_wedge": 150,
+      "instances:ascending_wedge": 36,
+      "statusPairs:ascending_wedge": 112,
+      "statusFlips:ascending_wedge": 11,
+      "postBreakDays:ascending_wedge": 55,
+      "movingPostBreakDays:ascending_wedge": 55,
+      "candidateDays:ascending_channel": 793,
+      "undirectedDays": 1496,
+      "undirectedDays:ascending_channel": 344,
+      "instances:ascending_channel": 157,
+      "statusPairs:ascending_channel": 617,
+      "statusFlips:ascending_channel": 66,
+      "postBreakDays:ascending_channel": 135,
+      "movingPostBreakDays:ascending_channel": 135,
+      "candidateDays:bear_flag": 133,
+      "directedDays:bear_flag": 133,
+      "instances:bear_flag": 27,
+      "statusPairs:bear_flag": 104,
+      "statusFlips:bear_flag": 21,
+      "postBreakDays:bear_flag": 60,
+      "movingPostBreakDays:bear_flag": 60,
+      "candidateDays:bull_flag": 264,
+      "directedDays:bull_flag": 264,
+      "instances:bull_flag": 35,
+      "statusPairs:bull_flag": 224,
+      "statusFlips:bull_flag": 28,
+      "postBreakDays:bull_flag": 164,
+      "movingPostBreakDays:bull_flag": 164,
+      "wrongSideDays": 84,
+      "wrongSideDays:bull_flag": 19,
+      "candidateDays:triple_bottom": 146,
+      "directedDays:triple_bottom": 146,
+      "instances:triple_bottom": 24,
+      "candidateDays:descending_triangle": 109,
+      "directedDays:descending_triangle": 109,
+      "instances:descending_triangle": 34,
+      "statusPairs:descending_triangle": 72,
+      "statusFlips:descending_triangle": 7,
+      "postBreakDays:descending_triangle": 21,
+      "movingPostBreakDays:descending_triangle": 21,
+      "undirectedDays:descending_channel": 296,
+      "statusFlips:descending_channel": 76,
+      "postBreakDays:descending_channel": 183,
+      "movingPostBreakDays:descending_channel": 183,
+      "directedDays:ascending_channel": 449,
+      "candidateDays:broadening_formation": 1137,
+      "directedDays:broadening_formation": 492,
+      "instances:broadening_formation": 157,
+      "statusPairs:broadening_formation": 954,
+      "candidateDays:triple_top": 151,
+      "directedDays:triple_top": 151,
+      "instances:triple_top": 27,
+      "candidateDays:ascending_triangle": 175,
+      "directedDays:ascending_triangle": 175,
+      "instances:ascending_triangle": 35,
+      "statusPairs:ascending_triangle": 137,
+      "statusFlips:ascending_triangle": 22,
+      "postBreakDays:ascending_triangle": 59,
+      "movingPostBreakDays:ascending_triangle": 59,
+      "candidateDays:pennant": 409,
+      "directedDays:pennant": 409,
+      "instances:pennant": 44,
+      "noForwardWindow": 63,
+      "statusPairs:pennant": 357,
+      "pivots": 15541,
+      "selfConfirmedPivots": 3248,
+      "selfConfirmedNotCloseProvenPivots": 2642,
+      "statusFlips:broadening_formation": 46,
+      "candidateDays:descending_wedge": 68,
+      "directedDays:descending_wedge": 68,
+      "instances:descending_wedge": 20,
+      "statusPairs:descending_wedge": 45,
+      "postBreakDays:descending_wedge": 41,
+      "movingPostBreakDays:descending_wedge": 41,
+      "statusFlips:pennant": 36,
+      "postBreakDays:pennant": 229,
+      "movingPostBreakDays:pennant": 229,
+      "candidateDays:head_and_shoulders": 476,
+      "directedDays:head_and_shoulders": 476,
+      "instances:head_and_shoulders": 58,
+      "undirectedDays:symmetrical_triangle": 150,
+      "failedBreakoutDisagreeDays": 78,
+      "failedBreakoutDisagreeDays:ascending_channel": 9,
+      "candidateDays:cup_and_handle": 399,
+      "directedDays:cup_and_handle": 399,
+      "instances:cup_and_handle": 39,
+      "candidateDays:inverse_head_and_shoulders": 250,
+      "directedDays:inverse_head_and_shoulders": 250,
+      "instances:inverse_head_and_shoulders": 34,
+      "undirectedDays:broadening_formation": 645,
+      "failedBreakoutDisagreeDays:descending_channel": 14,
+      "candidateDays:high_tight_flag": 345,
+      "directedDays:high_tight_flag": 345,
+      "instances:high_tight_flag": 38,
+      "postBreakDays:broadening_formation": 105,
+      "movingPostBreakDays:broadening_formation": 105,
+      "unexplainedStatusFlips": 40,
+      "unexplainedStatusFlips:bull_flag": 6,
+      "wrongSideDays:descending_wedge": 2,
+      "failedBreakoutDisagreeDays:bull_flag": 6,
+      "failedBreakoutDisagreeDays:pennant": 23,
+      "wrongSideDays:pennant": 31,
+      "failedBreakoutDisagreeDays:broadening_formation": 9,
+      "unexplainedStatusFlips:bear_flag": 2,
+      "candidateDays:rectangle": 80,
+      "directedDays:rectangle": 19,
+      "instances:rectangle": 11,
+      "statusPairs:rectangle": 68,
+      "failedBreakoutDisagreeDays:bear_flag": 5,
+      "failedBreakoutDisagreeDays:descending_wedge": 5,
+      "wrongSideDays:rounding_top": 9,
+      "undirectedDays:rectangle": 61,
+      "statusFlips:rectangle": 7,
+      "postBreakDays:rectangle": 18,
+      "movingPostBreakDays:rectangle": 18,
+      "unexplainedStatusFlips:pennant": 5,
+      "statusFlips:descending_wedge": 3,
+      "failedBreakoutDisagreeDays:symmetrical_triangle": 6,
+      "unexplainedStatusFlips:broadening_formation": 11,
+      "wrongSideDays:bear_flag": 1,
+      "unexplainedStatusFlips:descending_channel": 8,
+      "unexplainedStatusFlips:ascending_channel": 5,
+      "nonPositiveDays": 23,
+      "nonPositiveDays:pennant": 23,
+      "wrongSideDays:ascending_wedge": 9,
+      "wrongSideDays:rounding_bottom": 4,
+      "wrongSideDays:cup_and_handle": 9,
+      "unexplainedStatusFlips:symmetrical_triangle": 3,
+      "failedBreakoutDisagreeDays:ascending_wedge": 1
+    }
+  },
+  "caseLines": null,
+  "g1": {
+    "gate": "geometry",
+    "candle": {
+      "context": 18967,
+      "setupBody": 5428,
+      "dojiSetup": 1729,
+      "tweezersClose": 1605
+    },
+    "patterns": {
+      "wrongSideDays": 84,
+      "nonPositiveDays": 23,
+      "movingPostBreakDays": 1170,
+      "unexplainedStatusFlips": 40,
+      "failedBreakoutDisagreeDays": 78,
+      "selfConfirmedNotCloseProvenPivots": 2642,
+      "pivotRepaints": 0
+    },
+    "scored": {
+      "wrongSideDays": 84,
+      "nonPositiveDays": 23,
+      "movingPostBreakDays": 1170,
+      "unexplainedStatusFlips": 40,
+      "failedBreakoutDisagreeDays": 78,
+      "pivotRepaints": 0
+    },
+    "scoredHalfMeasured": true,
+    "evaluated": 50883,
+    "pass": false
+  }
+}

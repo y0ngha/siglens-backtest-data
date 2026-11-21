@@ -1,0 +1,93 @@
+{
+  "tool": "engineEval",
+  "arm": "before",
+  "coreGitSha": "58f1466339fede94e24db89e13821fa63f5c3549",
+  "dirtyDiffSha256": null,
+  "source": {
+    "kind": "bars",
+    "fingerprint": "a6d79384dc1b8982f3f76c7b931afe1a334ebcdaaa65c93c1be2da60b6e86fc6",
+    "symbols": [
+      "AAPL",
+      "ADBE",
+      "AMAT",
+      "AMD",
+      "AMZN",
+      "ANET",
+      "APP",
+      "ARM",
+      "ASML",
+      "AVGO",
+      "COIN",
+      "CRM",
+      "CRWD",
+      "DDOG",
+      "GOOGL",
+      "HOOD",
+      "LRCX",
+      "META",
+      "MRVL",
+      "MSFT",
+      "MSTR",
+      "MU",
+      "NET",
+      "NFLX",
+      "NOW",
+      "NVDA",
+      "ORCL",
+      "PANW",
+      "PLTR",
+      "QCOM",
+      "QQQ",
+      "RKLB",
+      "SHOP",
+      "SMCI",
+      "SNOW",
+      "SPY",
+      "TSLA",
+      "TSM",
+      "UBER",
+      "ZS"
+    ]
+  },
+  "only": null,
+  "gate": "geometry",
+  "horizons": {
+    "h1": 1,
+    "h5": 5,
+    "h10": 10
+  },
+  "constants": {
+    "seed": 20261121,
+    "placeboCount": 20,
+    "minPlacebo": 5,
+    "placeboRadius": 250,
+    "minPriorBars": 260,
+    "candlePriorTrendBars": 10,
+    "candlePriorTrendMinAtr": 1,
+    "candleSetupBodyAtr": 0.25,
+    "dojiBodyRatio": 0.1,
+    "robustPriorMoveAtr": [
+      0.5,
+      1.5
+    ],
+    "robustBodyFloorAtr": [
+      0.1,
+      0.5
+    ],
+    "patternForwardBars": 60,
+    "patternPriorTrendBars": 20,
+    "patternPriorTrendMinAtr": 2,
+    "bootstrapReplicates": 2000,
+    "blockWeeks": 13,
+    "minFamilyN": 100,
+    "earlyHalfLastYear": 2021,
+    "levelTolerance": 1e-9,
+    "derived": {
+      "windowBars": 500,
+      "candleDetectionBars": 15,
+      "patternLookbackBars": 120,
+      "pivotReversalAtrMult": 1.5,
+      "labelWindowBars": 20
+    }
+  }
+}
