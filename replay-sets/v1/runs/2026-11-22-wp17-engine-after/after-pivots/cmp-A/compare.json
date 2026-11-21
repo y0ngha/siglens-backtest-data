@@ -1,0 +1,616 @@
+{
+  "before": "before",
+  "after": "after-pivots",
+  "warnings": [
+    "after-pivots ran on a dirty checkout (cc2012258c3a216593169044cc5d3716ade059bf+dirty, diff ba3336d72df22388979f9e7037fefda0ebea0233310a574415672ea1d7c134bf)"
+  ],
+  "candles": {
+    "bullish": {
+      "primary": {
+        "nBefore": 13978,
+        "nAfter": 4904,
+        "delta": -0.0012786614155210797,
+        "low": -0.0850444380471543,
+        "high": 0.08838232414364267,
+        "p": 0.9645177411294353,
+        "droppedReplicates": 0
+      },
+      "horizons": {
+        "h1": {
+          "nBefore": 13978,
+          "nAfter": 4904,
+          "delta": -0.009517812257427365,
+          "low": -0.04307238486630328,
+          "high": 0.023578621263659613,
+          "p": 0.6006996501749126,
+          "droppedReplicates": 0
+        },
+        "h5": {
+          "nBefore": 13978,
+          "nAfter": 4904,
+          "delta": -0.0012786614155210797,
+          "low": -0.0850444380471543,
+          "high": 0.08838232414364267,
+          "p": 0.9645177411294353,
+          "droppedReplicates": 0
+        },
+        "h10": {
+          "nBefore": 13978,
+          "nAfter": 4904,
+          "delta": 0.005001944964045088,
+          "low": -0.11836905333154762,
+          "high": 0.13633426366247445,
+          "p": 0.9475262368815592,
+          "droppedReplicates": 0
+        }
+      }
+    },
+    "bearish": {
+      "primary": {
+        "nBefore": 14242,
+        "nAfter": 6184,
+        "delta": -0.0025399475350226398,
+        "low": -0.07245503734295272,
+        "high": 0.06595953044568209,
+        "p": 0.9585207396301849,
+        "droppedReplicates": 0
+      },
+      "horizons": {
+        "h1": {
+          "nBefore": 14242,
+          "nAfter": 6184,
+          "delta": 0.0034795550852602247,
+          "low": -0.020920260333400633,
+          "high": 0.027566211808905675,
+          "p": 0.816591704147926,
+          "droppedReplicates": 0
+        },
+        "h5": {
+          "nBefore": 14242,
+          "nAfter": 6184,
+          "delta": -0.0025399475350226398,
+          "low": -0.07245503734295272,
+          "high": 0.06595953044568209,
+          "p": 0.9585207396301849,
+          "droppedReplicates": 0
+        },
+        "h10": {
+          "nBefore": 14242,
+          "nAfter": 6184,
+          "delta": 0.02211977558014901,
+          "low": -0.0801066715006945,
+          "high": 0.12610651196484596,
+          "p": 0.6616691654172914,
+          "droppedReplicates": 0
+        }
+      }
+    },
+    "pooled": {
+      "primary": {
+        "nBefore": 28220,
+        "nAfter": 11088,
+        "delta": -0.0009134372133510552,
+        "low": -0.07203305820612048,
+        "high": 0.07144816605274097,
+        "p": 0.9565217391304348,
+        "droppedReplicates": 0
+      },
+      "horizons": {
+        "h1": {
+          "nBefore": 28220,
+          "nAfter": 11088,
+          "delta": -0.0010211829529139715,
+          "low": -0.023015713958364006,
+          "high": 0.021668979313621075,
+          "p": 0.9185407296351824,
+          "droppedReplicates": 0
+        },
+        "h5": {
+          "nBefore": 28220,
+          "nAfter": 11088,
+          "delta": -0.0009134372133510552,
+          "low": -0.07203305820612048,
+          "high": 0.07144816605274097,
+          "p": 0.9565217391304348,
+          "droppedReplicates": 0
+        },
+        "h10": {
+          "nBefore": 28220,
+          "nAfter": 11088,
+          "delta": 0.015599366985449729,
+          "low": -0.08811876711453386,
+          "high": 0.1203214810145394,
+          "p": 0.7726136931534233,
+          "droppedReplicates": 0
+        }
+      }
+    }
+  },
+  "candleEventCounts": [
+    {
+      "pattern": "above_the_stomach",
+      "before": 540,
+      "after": 169
+    },
+    {
+      "pattern": "advance_block",
+      "before": 264,
+      "after": 100
+    },
+    {
+      "pattern": "bearish_abandoned_baby",
+      "before": 2,
+      "after": 1
+    },
+    {
+      "pattern": "bearish_belt_hold",
+      "before": 2060,
+      "after": 883
+    },
+    {
+      "pattern": "bearish_counterattack_line",
+      "before": 34,
+      "after": 11
+    },
+    {
+      "pattern": "bearish_engulfing",
+      "before": 2306,
+      "after": 344
+    },
+    {
+      "pattern": "bearish_harami",
+      "before": 1704,
+      "after": 705
+    },
+    {
+      "pattern": "bearish_harami_cross",
+      "before": 454,
+      "after": 192
+    },
+    {
+      "pattern": "bearish_marubozu",
+      "before": 601,
+      "after": 907
+    },
+    {
+      "pattern": "bearish_three_line_strike",
+      "before": 35,
+      "after": 10
+    },
+    {
+      "pattern": "bearish_triple_star",
+      "before": 1,
+      "after": 0
+    },
+    {
+      "pattern": "below_the_stomach",
+      "before": 521,
+      "after": 169
+    },
+    {
+      "pattern": "bullish_abandoned_baby",
+      "before": 2,
+      "after": 1
+    },
+    {
+      "pattern": "bullish_belt_hold",
+      "before": 2313,
+      "after": 648
+    },
+    {
+      "pattern": "bullish_counterattack_line",
+      "before": 39,
+      "after": 18
+    },
+    {
+      "pattern": "bullish_engulfing",
+      "before": 1995,
+      "after": 216
+    },
+    {
+      "pattern": "bullish_harami",
+      "before": 1824,
+      "after": 561
+    },
+    {
+      "pattern": "bullish_harami_cross",
+      "before": 456,
+      "after": 139
+    },
+    {
+      "pattern": "bullish_marubozu",
+      "before": 813,
+      "after": 1112
+    },
+    {
+      "pattern": "bullish_three_line_strike",
+      "before": 47,
+      "after": 18
+    },
+    {
+      "pattern": "dark_cloud_cover",
+      "before": 456,
+      "after": 178
+    },
+    {
+      "pattern": "doji",
+      "before": 3742,
+      "after": 5342
+    },
+    {
+      "pattern": "downside_gap_tasuki",
+      "before": 258,
+      "after": 60
+    },
+    {
+      "pattern": "downside_gap_two_rabbits",
+      "before": 141,
+      "after": 35
+    },
+    {
+      "pattern": "dragonfly_doji",
+      "before": 246,
+      "after": 66
+    },
+    {
+      "pattern": "evening_doji_star",
+      "before": 70,
+      "after": 25
+    },
+    {
+      "pattern": "evening_star",
+      "before": 248,
+      "after": 92
+    },
+    {
+      "pattern": "falling_three_methods",
+      "before": 8,
+      "after": 0
+    },
+    {
+      "pattern": "gravestone_doji",
+      "before": 193,
+      "after": 102
+    },
+    {
+      "pattern": "hammer",
+      "before": 909,
+      "after": 688
+    },
+    {
+      "pattern": "hanging_man",
+      "before": 990,
+      "after": 951
+    },
+    {
+      "pattern": "in_neck",
+      "before": 621,
+      "after": 208
+    },
+    {
+      "pattern": "inverted_hammer",
+      "before": 825,
+      "after": 576
+    },
+    {
+      "pattern": "ladder_bottom",
+      "before": 37,
+      "after": 7
+    },
+    {
+      "pattern": "morning_doji_star",
+      "before": 71,
+      "after": 23
+    },
+    {
+      "pattern": "morning_star",
+      "before": 243,
+      "after": 65
+    },
+    {
+      "pattern": "on_neck",
+      "before": 189,
+      "after": 43
+    },
+    {
+      "pattern": "piercing_line",
+      "before": 343,
+      "after": 125
+    },
+    {
+      "pattern": "rising_three_methods",
+      "before": 8,
+      "after": 4
+    },
+    {
+      "pattern": "shooting_star",
+      "before": 794,
+      "after": 827
+    },
+    {
+      "pattern": "three_black_crows",
+      "before": 76,
+      "after": 27
+    },
+    {
+      "pattern": "three_inside_down",
+      "before": 396,
+      "after": 175
+    },
+    {
+      "pattern": "three_inside_up",
+      "before": 419,
+      "after": 137
+    },
+    {
+      "pattern": "three_outside_down",
+      "before": 912,
+      "after": 130
+    },
+    {
+      "pattern": "three_outside_up",
+      "before": 863,
+      "after": 98
+    },
+    {
+      "pattern": "three_white_soldiers",
+      "before": 62,
+      "after": 20
+    },
+    {
+      "pattern": "tweezers_bottom",
+      "before": 1794,
+      "after": 186
+    },
+    {
+      "pattern": "tweezers_top",
+      "before": 1962,
+      "after": 293
+    },
+    {
+      "pattern": "upside_gap_tasuki",
+      "before": 322,
+      "after": 125
+    },
+    {
+      "pattern": "upside_gap_two_crows",
+      "before": 143,
+      "after": 54
+    }
+  ],
+  "patterns": {
+    "target": {
+      "nBefore": 1375,
+      "nAfter": 1517,
+      "delta": 0.005463759782443408,
+      "low": -0.011364746695867312,
+      "high": 0.021763520074591893,
+      "p": 0.4987506246876562,
+      "droppedReplicates": 0
+    },
+    "targetBlock": {
+      "nBefore": 1375,
+      "nAfter": 1517,
+      "delta": 0.005463759782443409,
+      "low": -0.008419552937152776,
+      "high": 0.018472865455308612,
+      "p": 0.41679160419790107,
+      "droppedReplicates": 0
+    },
+    "cons": {
+      "nBefore": 1375,
+      "nAfter": 1517,
+      "delta": 0.005617990861356477,
+      "low": -0.013012733388067283,
+      "high": 0.02456671966532452,
+      "p": 0.5777111444277861,
+      "droppedReplicates": 0
+    },
+    "families": [
+      {
+        "family": "double_bottom",
+        "delta": {
+          "nBefore": 266,
+          "nAfter": 268,
+          "delta": 0.009781449893390203,
+          "low": -0.03228278127368492,
+          "high": 0.04840610226429577,
+          "p": 0.6166916541729135,
+          "droppedReplicates": 0
+        }
+      },
+      {
+        "family": "double_top",
+        "delta": {
+          "nBefore": 261,
+          "nAfter": 266,
+          "delta": -0.0060186385503989935,
+          "low": -0.04187705702601896,
+          "high": 0.03430242776886036,
+          "p": 0.7376311844077961,
+          "droppedReplicates": 0
+        }
+      }
+    ]
+  },
+  "instances": {
+    "total": {
+      "family": "all",
+      "before": 1683,
+      "after": 1889,
+      "change": 0.12240047534165188
+    },
+    "droppedFamilies": [],
+    "byFamily": [
+      {
+        "family": "ascending_channel",
+        "before": 157,
+        "after": 188,
+        "change": 0.197452229299363
+      },
+      {
+        "family": "ascending_triangle",
+        "before": 35,
+        "after": 41,
+        "change": 0.17142857142857149
+      },
+      {
+        "family": "ascending_wedge",
+        "before": 36,
+        "after": 45,
+        "change": 0.25
+      },
+      {
+        "family": "bear_flag",
+        "before": 27,
+        "after": 34,
+        "change": 0.2592592592592593
+      },
+      {
+        "family": "broadening_formation",
+        "before": 157,
+        "after": 195,
+        "change": 0.2420382165605095
+      },
+      {
+        "family": "bull_flag",
+        "before": 35,
+        "after": 42,
+        "change": 0.19999999999999996
+      },
+      {
+        "family": "cup_and_handle",
+        "before": 39,
+        "after": 30,
+        "change": -0.23076923076923073
+      },
+      {
+        "family": "descending_channel",
+        "before": 156,
+        "after": 164,
+        "change": 0.05128205128205132
+      },
+      {
+        "family": "descending_triangle",
+        "before": 34,
+        "after": 44,
+        "change": 0.2941176470588236
+      },
+      {
+        "family": "descending_wedge",
+        "before": 20,
+        "after": 28,
+        "change": 0.3999999999999999
+      },
+      {
+        "family": "double_bottom",
+        "before": 277,
+        "after": 279,
+        "change": 0.0072202166064982976
+      },
+      {
+        "family": "double_top",
+        "before": 275,
+        "after": 281,
+        "change": 0.021818181818181737
+      },
+      {
+        "family": "head_and_shoulders",
+        "before": 58,
+        "after": 79,
+        "change": 0.3620689655172413
+      },
+      {
+        "family": "high_tight_flag",
+        "before": 38,
+        "after": 48,
+        "change": 0.26315789473684204
+      },
+      {
+        "family": "inverse_head_and_shoulders",
+        "before": 34,
+        "after": 43,
+        "change": 0.2647058823529411
+      },
+      {
+        "family": "pennant",
+        "before": 44,
+        "after": 69,
+        "change": 0.5681818181818181
+      },
+      {
+        "family": "rectangle",
+        "before": 11,
+        "after": 12,
+        "change": 0.09090909090909083
+      },
+      {
+        "family": "rounding_bottom",
+        "before": 61,
+        "after": 53,
+        "change": -0.1311475409836066
+      },
+      {
+        "family": "rounding_top",
+        "before": 70,
+        "after": 62,
+        "change": -0.11428571428571432
+      },
+      {
+        "family": "symmetrical_triangle",
+        "before": 68,
+        "after": 100,
+        "change": 0.47058823529411775
+      },
+      {
+        "family": "triple_bottom",
+        "before": 24,
+        "after": 26,
+        "change": 0.08333333333333326
+      },
+      {
+        "family": "triple_top",
+        "before": 27,
+        "after": 26,
+        "change": -0.03703703703703709
+      }
+    ]
+  },
+  "gates": {
+    "g1": {
+      "pass": true,
+      "gate": "pivots",
+      "after": {
+        "gate": "pivots",
+        "candle": {
+          "context": 0,
+          "setupBody": 0,
+          "dojiSetup": 0,
+          "tweezersClose": 0
+        },
+        "patterns": {
+          "wrongSideDays": 121,
+          "nonPositiveDays": 24,
+          "movingPostBreakDays": 1703,
+          "unexplainedStatusFlips": 62,
+          "failedBreakoutDisagreeDays": 128,
+          "selfConfirmedNotCloseProvenPivots": 0,
+          "pivotRepaints": 0
+        },
+        "scored": {
+          "selfConfirmedNotCloseProvenPivots": 0,
+          "pivotRepaints": 0
+        },
+        "scoredHalfMeasured": true,
+        "evaluated": 50883,
+        "pass": true
+      }
+    },
+    "g2": {
+      "candleUpperBoundNonNegative": true,
+      "patternUpperBoundNonNegative": true,
+      "instancesWithinBound": true,
+      "pass": true
+    }
+  }
+}
