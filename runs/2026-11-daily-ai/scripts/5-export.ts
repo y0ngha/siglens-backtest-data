@@ -9,14 +9,29 @@
  *         responses/{T}/... (core 후처리 응답 전문)
  *
  *   RUN_ID=2026-11-daily-ai TICKERS=NVDA,AAPL npx tsx scripts/backtests/v8/5-export.ts
+ *
+ * 벤치마크(WP-26): BENCHMARKS_IN=<core backtestBenchmarks.ts의 --out 디렉터리>를 주면
+ *   - data.json에 `benchmarks`와 종목별 `exposureMatchedHoldPct`·`markToMarketMaxDrawdownPct`를 넣고,
+ *   - trades.csv 끝에 `same_length_drift_pct`·`excess_pct` 두 열을 (ticker, decision_date, entry_date)로 붙이고,
+ *   - summary.json에 `benchmarks`를 넣는다.
+ *   내보내는 trades의 sha256(canonicalJson(trades))가 benchmarks.tradesSha256과 다르면 종료 코드 2로 거부한다
+ *   (벤치마크는 정확히 그 매매에 대한 것이어야 한다). 비교는 data.json의 `trades`(pageTrades) 기준이다.
+ *   canonicalJson은 core에서 온다. 배포본에 없으면 CANONICAL_JSON_MODULE=<canonicalJson.js 경로>로
+ *   미배포 core 빌드의 `domain/canonicalJson.js`를 가리킨다.
+ *   GENERATED_AT=<ISO>를 주면 data.json의 run.generatedAt에 그 값을 쓴다. BENCHMARKS_IN을 쓸 때는
+ *   필수이고(없으면 종료 코드 2), 그렇지 않으면 없을 때 현재 시각을 쓴다.
+ *   산출물은 export/.staging에 먼저 만들고 모든 검사가 끝난 뒤에만 기존 산출물과 맞바꾼다(실패하면 기존 산출물 유지).
  */
 import { execFileSync } from 'node:child_process';
-import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { gunzipSync } from 'node:zlib';
 import type { AiFile, TimelineEntry, Trade } from './3-run-ai';
 import { AI_DIR, OUT_DIR, ROOT, loadBars, toIsoDate } from './lib';
 
+const BENCHMARKS_IN = process.env.BENCHMARKS_IN;
+const CANONICAL_JSON_MODULE = process.env.CANONICAL_JSON_MODULE ?? '@y0ngha/siglens-core';
 const RUN_ID = process.env.RUN_ID ?? '2026-11-daily-ai';
 /** 페이지용 data.json(BacktestRunData)을 추가로 쓸 경로. 예: ../siglens-backtest-v8/src/entities/backtest-case/data/data.json */
 const PAGE_DATA_OUT = process.env.PAGE_DATA_OUT;
@@ -41,9 +56,15 @@ function truncateSummary(text: string): string {
     return end > SUMMARY_MAX / 2 ? cut.slice(0, end + 1) : `${cut.slice(0, SUMMARY_MAX).trimEnd()}…`;
 }
 const TICKERS = (process.env.TICKERS ?? 'NVDA,AAPL,MSFT,AMZN,GOOGL,META,AVGO,TSLA,SPY,QQQ').split(',');
-const PUB = resolve(ROOT, 'export/public/backtest-results', RUN_ID);
-const REL_ROOT = resolve(ROOT, 'export/release');
-const REL = resolve(REL_ROOT, `${RUN_ID}-prompts-and-responses`);
+// 산출물은 스테이징 디렉터리에 먼저 만들고, 모든 검사와 tar가 끝난 뒤에만 기존 산출물과 맞바꾼다.
+// 검사에 실패하면 지난번 산출물이 그대로 남는다.
+const REL_NAME = `${RUN_ID}-prompts-and-responses`;
+const STAGE = resolve(ROOT, 'export/.staging', RUN_ID);
+const PUB = resolve(STAGE, 'public');
+const REL_ROOT = resolve(STAGE, 'release');
+const REL = resolve(REL_ROOT, REL_NAME);
+const FINAL_PUB = resolve(ROOT, 'export/public/backtest-results', RUN_ID);
+const FINAL_REL_ROOT = resolve(ROOT, 'export/release');
 
 const csvCell = (v: unknown): string => {
     if (v === undefined || v === null) return '';
@@ -52,11 +73,72 @@ const csvCell = (v: unknown): string => {
 };
 const toCsv = (header: string[], rows: unknown[][]): string =>
     [header.join(','), ...rows.map(r => r.map(csvCell).join(','))].join('\n') + '\n';
+/** 벤치마크와 매매가 짝이 아니면 쓰지 않는다(종료 코드 2). 다른 오류는 1. */
+class FailClosedError extends Error {}
+
+interface BenchmarkTickerFields {
+    ticker: string;
+    exposureMatchedHoldPct: number;
+    markToMarketMaxDrawdownPct: number;
+}
+interface BenchmarkInputs {
+    benchmarks: { tradesSha256: string } & Record<string, unknown>;
+    perTicker: ReadonlyMap<string, BenchmarkTickerFields>;
+    /** `ticker|decision_date|entry_date` → [same_length_drift_pct, excess_pct] (CSV 원문 그대로 숫자로) */
+    perTrade: ReadonlyMap<string, readonly [number, number]>;
+}
+
+function loadBenchmarkInputs(dir: string): BenchmarkInputs {
+    const read = (name: string): string => {
+        const path = resolve(dir, name);
+        if (!existsSync(path)) throw new FailClosedError(`BENCHMARKS_IN: missing ${path}`);
+        return readFileSync(path, 'utf-8');
+    };
+    const benchmarks = JSON.parse(read('benchmarks.json')) as BenchmarkInputs['benchmarks'];
+    if (typeof benchmarks.tradesSha256 !== 'string') throw new FailClosedError('benchmarks.json has no tradesSha256');
+    const perTicker = new Map(
+        (JSON.parse(read('perTicker.json')) as BenchmarkTickerFields[]).map(p => [p.ticker, p] as const)
+    );
+    const [header, ...lines] = read('per-trade.csv').trim().split('\n');
+    if (header !== 'ticker,decision_date,entry_date,return_pct,same_length_drift_pct,excess_pct') {
+        throw new FailClosedError(`per-trade.csv: unexpected header ${header}`);
+    }
+    const width = header.split(',').length;
+    const perTrade = new Map<string, readonly [number, number]>();
+    lines.forEach((line, i) => {
+        const fields = line.split(',');
+        if (fields.length !== width) {
+            throw new FailClosedError(`per-trade.csv row ${i + 2}: ${fields.length} fields, expected ${width}`);
+        }
+        const [ticker, decision, entry, , driftText, excessText] = fields;
+        const drift = Number(driftText);
+        const excess = Number(excessText);
+        if (driftText === '' || excessText === '' || !Number.isFinite(drift) || !Number.isFinite(excess)) {
+            throw new FailClosedError(`per-trade.csv row ${i + 2}: non-finite number (${driftText}, ${excessText})`);
+        }
+        const key = `${ticker}|${decision}|${entry}`;
+        if (perTrade.has(key)) throw new FailClosedError(`per-trade.csv: duplicate ${key}`);
+        perTrade.set(key, [drift, excess]);
+    });
+    return { benchmarks, perTicker, perTrade };
+}
+
+async function tradesSha256(trades: unknown): Promise<string> {
+    const mod = (await import(CANONICAL_JSON_MODULE)) as { canonicalJson?: (v: unknown) => string };
+    if (typeof mod.canonicalJson !== 'function') {
+        throw new Error(`${CANONICAL_JSON_MODULE} has no canonicalJson; set CANONICAL_JSON_MODULE to a core build that has it`);
+    }
+    return createHash('sha256').update(mod.canonicalJson(trades)).digest('hex');
+}
+
 const gunzipJson = <T>(path: string): T => JSON.parse(gunzipSync(readFileSync(path)).toString('utf-8')) as T;
 
-function main(): void {
-    rmSync(PUB, { recursive: true, force: true });
-    rmSync(REL, { recursive: true, force: true });
+async function main(): Promise<void> {
+    if (BENCHMARKS_IN && !process.env.GENERATED_AT) {
+        throw new FailClosedError('GENERATED_AT is required with BENCHMARKS_IN (the page data must be reproducible byte for byte)');
+    }
+    const bench = BENCHMARKS_IN ? loadBenchmarkInputs(resolve(BENCHMARKS_IN)) : null;
+    rmSync(STAGE, { recursive: true, force: true });
     mkdirSync(PUB, { recursive: true });
     mkdirSync(REL, { recursive: true });
 
@@ -90,7 +172,17 @@ function main(): void {
         periodEnd = toIsoDate(bars[bars.length - 1].time);
         const base = report.perTicker.find(p => p.ticker === t);
         if (!base) throw new Error(`${t}: missing perTicker in report`);
-        baselines.push({ ticker: t, buyHoldPct: base.buyHoldPct, buyHoldMaxDrawdownPct: base.buyHoldMaxDrawdownPct, tradingDays: bars.length - simIdx });
+        const benchTicker = bench?.perTicker.get(t);
+        if (bench && !benchTicker) throw new FailClosedError(`${t}: missing in benchmarks perTicker.json`);
+        baselines.push({
+            ticker: t,
+            buyHoldPct: base.buyHoldPct,
+            buyHoldMaxDrawdownPct: base.buyHoldMaxDrawdownPct,
+            tradingDays: bars.length - simIdx,
+            ...(benchTicker
+                ? { exposureMatchedHoldPct: benchTicker.exposureMatchedHoldPct, markToMarketMaxDrawdownPct: benchTicker.markToMarketMaxDrawdownPct }
+                : {}),
+        });
         const entryByDate = new Map(sim.timeline.filter(e => e.kind === 'entry').map(e => [e.date, e]));
         for (const tr of sim.trades) {
             const opener = entryByDate.get(tr.decisionDate);
@@ -165,12 +257,33 @@ function main(): void {
         }
     }
 
+    // data.json의 trades와 같은 정렬·같은 객체. 벤치마크는 이 매매에 대한 것이어야 한다.
+    const sortedPageTrades = pageTrades.sort((x, y) => String(x.entryDate).localeCompare(String(y.entryDate)) || String(x.ticker).localeCompare(String(y.ticker)));
+    if (bench) {
+        const actual = await tradesSha256(sortedPageTrades);
+        if (actual !== bench.benchmarks.tradesSha256) {
+            throw new FailClosedError(`benchmarks.tradesSha256 ${bench.benchmarks.tradesSha256} != sha256(canonicalJson(trades)) ${actual}: the benchmarks were measured on other trades`);
+        }
+        if (bench.perTrade.size !== tradeRows.length) {
+            throw new FailClosedError(`per-trade.csv has ${bench.perTrade.size} rows, exporting ${tradeRows.length} trades`);
+        }
+    }
+    const benchCols = (row: unknown[]): unknown[] => {
+        if (!bench) return [];
+        const key = `${row[0]}|${row[2]}|${row[3]}`;
+        const pair = bench.perTrade.get(key);
+        if (!pair) throw new FailClosedError(`per-trade.csv has no row for ${key}`);
+        return [...pair];
+    };
     writeFileSync(resolve(PUB, 'trades.csv'), toCsv(
         ['ticker', 'entry_type', 'decision_date', 'entry_date', 'entry_price', 'exit_date', 'holding_days', 'return_pct', 'exit_reason',
             'leg_a_exit_date', 'leg_a_exit_price', 'leg_a_reason', 'leg_a_return_pct',
             'leg_b_exit_date', 'leg_b_exit_price', 'leg_b_reason', 'leg_b_return_pct',
-            'initial_tp1', 'initial_tp_final', 'initial_sl1', 'initial_sl2', 'plan_source', 'holding_reviews'],
-        tradeRows.sort((x, y) => String(x[3]).localeCompare(String(y[3])) || String(x[0]).localeCompare(String(y[0])))
+            'initial_tp1', 'initial_tp_final', 'initial_sl1', 'initial_sl2', 'plan_source', 'holding_reviews',
+            ...(bench ? ['same_length_drift_pct', 'excess_pct'] : [])],
+        tradeRows
+            .sort((x, y) => String(x[3]).localeCompare(String(y[3])) || String(x[0]).localeCompare(String(y[0])))
+            .map(row => [...row, ...benchCols(row)])
     ));
     writeFileSync(resolve(PUB, 'decisions.csv'), toCsv(
         ['date', 'ticker', 'kind', 'position_bucket', 'recommendation', 'sell_off_rule', 'trend', 'risk_level',
@@ -179,8 +292,15 @@ function main(): void {
         decisionRows.sort((x, y) => String(x[0]).localeCompare(String(y[0])) || String(x[1]).localeCompare(String(y[1])))
     ));
     const reportPath = resolve(OUT_DIR, 'report-with-wait.json');
-    if (existsSync(reportPath)) writeFileSync(resolve(PUB, 'summary.json'), readFileSync(reportPath));
+    if (existsSync(reportPath)) {
+        // 4단계 보고서는 들여쓰기 2칸, 끝 개행 없음. 벤치마크가 있으면 같은 형식으로 `benchmarks`를 덧붙인다.
+        writeFileSync(
+            resolve(PUB, 'summary.json'),
+            bench ? JSON.stringify({ ...JSON.parse(readFileSync(reportPath, 'utf-8')), benchmarks: bench.benchmarks }, null, 2) : readFileSync(reportPath)
+        );
+    }
 
+    let pageDataText: string | null = null;
     if (PAGE_DATA_OUT) {
         const spy = baselines.find(x => x.ticker === 'SPY');
         if (!spy) throw new Error('SPY baseline required');
@@ -194,24 +314,41 @@ function main(): void {
                 coreVersion: '2.29.0',
                 promptVersion: 'p32',
                 siglensVersion: '0.114.1',
-                generatedAt: new Date().toISOString(),
+                generatedAt: process.env.GENERATED_AT ?? new Date().toISOString(),
                 resultsUrl: RESULTS_URL,
                 releaseUrl: RELEASE_URL,
             },
             baselines,
             spy,
             trendRecognition: report.trendRecognition,
-            trades: pageTrades.sort((x, y) => String(x.entryDate).localeCompare(String(y.entryDate)) || String(x.ticker).localeCompare(String(y.ticker))),
+            trades: sortedPageTrades,
+            ...(bench ? { benchmarks: bench.benchmarks } : {}),
         };
-        writeFileSync(PAGE_DATA_OUT, JSON.stringify(runData, null, 4) + '\n');
-        console.log(`[export] page data → ${PAGE_DATA_OUT} (${pageTrades.length} trades)`);
+        pageDataText = JSON.stringify(runData, null, 4) + '\n';
     }
 
     const tarPath = resolve(REL_ROOT, `${RUN_ID}-prompts-and-responses.tar.gz`);
-    execFileSync('tar', ['-czf', tarPath, '-C', REL_ROOT, `${RUN_ID}-prompts-and-responses`]);
+    execFileSync('tar', ['-czf', tarPath, '-C', REL_ROOT, REL_NAME]);
+
+    // 여기까지 오면 모든 검사가 끝났다. 이제 기존 산출물과 맞바꾼다.
+    const finalTar = resolve(FINAL_REL_ROOT, `${REL_NAME}.tar.gz`);
+    const finalRel = resolve(FINAL_REL_ROOT, REL_NAME);
+    for (const path of [FINAL_PUB, finalRel, finalTar]) rmSync(path, { recursive: true, force: true });
+    for (const dir of [resolve(FINAL_PUB, '..'), FINAL_REL_ROOT]) mkdirSync(dir, { recursive: true });
+    renameSync(PUB, FINAL_PUB);
+    renameSync(REL, finalRel);
+    renameSync(tarPath, finalTar);
+    rmSync(STAGE, { recursive: true, force: true });
+    if (PAGE_DATA_OUT && pageDataText !== null) {
+        writeFileSync(PAGE_DATA_OUT, pageDataText);
+        console.log(`[export] page data → ${PAGE_DATA_OUT} (${pageTrades.length} trades)`);
+    }
     console.log(`[export] trades=${tradeRows.length} decisions=${decisionRows.length}`);
-    console.log(`[export] public → ${PUB}`);
-    console.log(`[export] release → ${tarPath}`);
+    console.log(`[export] public → ${FINAL_PUB}`);
+    console.log(`[export] release → ${finalTar}`);
 }
 
-main();
+main().catch((err: unknown) => {
+    console.error(err instanceof Error ? err.message : err);
+    process.exit(err instanceof FailClosedError ? 2 : 1);
+});

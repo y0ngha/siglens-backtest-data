@@ -1,0 +1,50 @@
+{
+  "constants": {
+    "version": 1,
+    "bootstrapResamples": 10000,
+    "bootstrapSeed": 650223617,
+    "randomEntryDraws": 2000,
+    "randomEntrySeed": 650227714,
+    "bracketSeed": 650231811,
+    "bracketPicksPerTrade": 3,
+    "holdLimitBars": 60,
+    "legReturnTolerancePp": 0.01,
+    "tradeLegTolerancePp": 0.015,
+    "entryPriceTolerance": 0.005,
+    "baselineToleranceUnits": 0.005
+  },
+  "period": {
+    "from": "2024-11-01",
+    "to": "2026-11-02",
+    "tradingDays": 501
+  },
+  "strategy": {
+    "closedReturnPct": 29.0869,
+    "closedMaxDrawdownPct": -9.289,
+    "returnFromLegsPct": 29.0844,
+    "legReturnDifferencePp": 0.0025
+  },
+  "bracket": {
+    "n": 641,
+    "targetFirst": 363,
+    "initialPlan": {
+      "target": 338,
+      "stop": 303,
+      "open": 0
+    },
+    "placebo": {
+      "target": 943,
+      "stop": 976,
+      "open": 4
+    },
+    "reRace": {
+      "agree": 586,
+      "disagreeWithReviews": 55
+    }
+  },
+  "randomEntry": {
+    "returnPctMeanOfDraws": 30.0452,
+    "drawsAboveStrategyReturn": 1018,
+    "drawsWithSmallerDrawdown": 12
+  }
+}
